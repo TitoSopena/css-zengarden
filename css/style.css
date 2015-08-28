@@ -91,9 +91,10 @@ html {
   background-size: cover;
 }
 body {
-	font-size: 1.5em;
-	font-family: 'Comic Script', cursive, sans-serif;
+	
+	font-family: 'adventure', cursive, sans-serif;
 	font-weight: bold;
+	font-size: 1.5em;
 }
 
 header {
@@ -104,7 +105,7 @@ header {
 
 h1 {
 	font-family: 'adventure', cursive, sans-serif;
-	font-size: 3em;
+	font-size: 4em;
 	color: orange;
     text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
 
@@ -134,6 +135,8 @@ p {
 
 	background: white;
 	border-radius: 20px;
+	color: black;
+
 
 }
 
@@ -147,18 +150,17 @@ p {
 
 /****Summary ****/
 .summary {
-	width: 100%;
-	color: white;
-  	text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
-  	outline: 20px solid black;
+	color: black;
 	margin-bottom: 350px;
 	background-image: url('largelady1.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	padding: 500px 0 30px; 
 	font-size: .6em;
-	line-height: 1.5em;
-	
+	line-height: 1.2em;
+	outline: 20px solid black;
+	width: 60%;
+	margin-left: 20%;
+	padding: 100px 0 10px;
  
 }
 .summary p {
@@ -173,10 +175,11 @@ p {
 /****Preamble*****/
 
 .preamble {
-	color: blue;
-    text-shadow:0px 0px 0 white,1px 1px 0 white,2px 2px 0 white,3px 3px 0 white,4px 4px 0 white,5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
-	margin-bottom: 300px;
-	padding: 280px 0 20px;
+	width: 60%;
+	color: black;
+  	margin-bottom: 350px;
+  	padding: 250px 0 100px;
+	margin-left: 20%;
 	background-image: url('lady1.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -213,9 +216,9 @@ p {
 
 	
 	color: black;
-    text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
 	margin-bottom: 100px;
 	outline: 20px solid black;
+	margin-bottom: 350px;
 
 
 }
@@ -229,35 +232,31 @@ p {
 
 .explanation p {
 
-	font-size: .6em;
+	font-size: .7em;
 	line-height: 1.5em;
 
 	
 }
 
-
+/*****************/
 
 .participation {
 
-	
-	color: blue;
-  	text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
-	margin-bottom: 100px;
-	
+	width: 85%;
+	color: black;
+	margin-bottom: 200px;
+	padding: 700px 0 100px;
 	background-image: url('smoke.jpg');
 	outline: 20px solid black;
-	overflow: hidden;
 	background-repeat: no-repeat;
-
-	
+	margin-left: 10%;    
 
 }
 
 
 .participation p {
-
 	font-size: .7em;
-	margin-bottom: 100px;
+	line-height: 1.5em;
 
 }
 
@@ -265,27 +264,27 @@ p {
 
 .benefits {
 
-
+	width: 60%;
 	margin-top: 200px;
-    color: blue;
-  	text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
-	text-align: center;
-	margin-bottom: 90px;
-	
-	padding: 150px 0 150px;
-
+    color: black;
+    margin-left: 23%;
+	margin-bottom: 100px;
+	padding-right: 34%;
+	position: relative;
+	right: 20%;
 	background-image: url('pop.jpg');
 	background-size: cover;
-	max-width: 100%;
 	outline: 20px solid black;
 
 }
 
 .benefits p {
+
 	font-size: .7em;
+	line-height: 1.2em;
+	margin-top: 130px;
 
 
-	
 }
 
 
@@ -294,19 +293,13 @@ p {
 .requirements {
 
 	margin-top: 300px;
-	color: orange;
-    text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
+	color: black;
 	text-align: center;
 	margin-bottom: 100px;
-
 	padding: 150px 0 50px;
-
-	/*background-image: url('miles.jpg');*/
-	
 	outline: 20px solid black;
-
-	line-height: 1.2em;
-	font-size: .5em
+	line-height: 1.5em;
+	font-size: .7em
 
 
 
@@ -319,12 +312,14 @@ p {
 
 }
 .requirements h3 {
-	color: orange;
+	color: white;
+	font-size: 3.5em;
+	padding-bottom: 50px;
 }
 
 
 footer a{
-	color: blue;
+	color: black;
 	background: white;
 }
 
@@ -332,11 +327,8 @@ footer a{
 .wrapper{
 
 	margin-top: 300px;
-    color: blue;
-    text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),2px 2px 0 rgb(120,139,196),3px 3px 0 rgb(111,130,187),4px 4px 0 rgb(103,122,179),5px 5px 0 rgb(94,113,170),6px 6px 0 rgb(85,104,161),7px 7px 0 rgb(76,95,152),8px 8px 0 rgb(68,87,144),9px 9px 0 rgb(59,78,135),10px 10px 0 rgb(50,69,126),11px 11px 0 rgb(42,61,118),12px 12px 0 rgb(33,52,109),13px 13px 0 rgb(24,43,100),14px 14px 0 rgb(15,34,91),15px 15px 0 rgb(7,26,83),16px 16px 0 rgb(-2,17,74),17px 17px 0 rgb(-11,8,65),18px 18px 0 rgb(-19,0,57),19px 19px 0 rgb(-28,-9,48), 20px 20px 0 rgb(-37,-18,39),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
+    color: black;
 	margin-bottom: 100px;
-	
-
 	background-image: url('miles.jpg');
 	background-size: cover;
 	outline: 15px solid black;
@@ -346,7 +338,7 @@ footer a{
 }
 
 .wrapper p {
-	color: orange;
+	color: black;
 }
 
 
@@ -355,10 +347,25 @@ footer a{
 
 @media screen and (min-width: 405px){
 
-	.summary {
-		padding: 280px 0 280px; 
+	.summary{
+		padding-bottom: 100px;
 	}
-	
+	.preamble {
+		padding: 380px 0 15px;
+		margin-bottom: 350px;
+	}
+	.preamble p {
+		margin-bottom: 5px;
+	}
+	.benefits {
+		padding: 100px 0 10px;
+		padding-left: 35%;
+
+	}
+	.benefits h3 {
+
+		margin-bottom: 250px;
+	}
 
 }
 @media screen and (min-width: 700px) {
@@ -381,18 +388,25 @@ footer a{
 		margin-bottom: 50px;
 	}
 
+
 	.explanation {
 		width: 60%;
 		margin-left: 18.5%;
 		padding: 20px;
 	}
 	.participation {
-		width: 60%;
+		
 		margin-left: 22%;
 	}
 	.benefits {
 		width: 60%;
-		margin-left: 20%;
+		padding: 200px 0 200px;
+		margin-left: 40%;
+		margin-bottom: 2px;
+	}
+
+	.benefits h3 {
+		text-align: center;
 	}
 	.requirements {
 		width: 60%;
@@ -415,29 +429,39 @@ footer a{
 }
 
 @media screen and (min-width: 1000px){
+
+
 	.summary {
-		outline: 20px solid black;
 		width: 60%;
-		margin-left: 20%;
-		padding: 280px 0 680px; 
+		outline: 20px solid black;
+		padding: 550px 0 200px;
 	}
-	
-
+	.preamble {
+		padding: 10px 0 100px;
 	}
-	.summary p {
-	
-		float: right;
+	.participation {
 
+		padding: 10px 0 380px;
+		margin-left: 100px;
+		margin-bottom: 350px;
+	}
+	.participation p {
+
+		width: 40%;
+		word-wrap: break-word;
+		position: relative;
+		left: 58%;
+	}
+	.participation h3 {
+		margin-left: 65%;
 	}
 
 	.preamble {
-		width: 60%;
 		margin-left: 20%;
-		padding: 280px 0 100px; 
+		padding: 600px 0 100px; 
 	}
 	.preamble p {
-
-		margin-bottom: 50px;
+		margin-bottom: 2px;
 	}
 
 	.explanation {
@@ -445,14 +469,21 @@ footer a{
 		margin-left: 18.5%;
 		padding: 20px;
 	}
-	.participation {
-		width: 45%;
-		margin-left: 27%;
-	}
+
 	.benefits {
-		width: 50%;
-		margin-left: 25%;
+		padding: 200px 0 200px;
+		margin-left: 40%;
+		margin-bottom: 250px;
 	}
+	.benefits p {
+		margin-bottom: 100px;
+		position: relative;
+		top: 200px;
+	}
+	.benefits h3 {
+		text-align: center;
+	}
+
 	.requirements {
 		width: 60%;
 		margin-left: 20%;
@@ -469,6 +500,7 @@ footer a{
 	.wrapper {
 		width: 60%;
 		margin-left: 20%;
+		padding: 200px 0 200px;
 	}
 }
 
